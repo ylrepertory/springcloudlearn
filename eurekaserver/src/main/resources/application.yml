@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-center
+server:
+  port: 2000
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    healthcheck:
+      enabled: true

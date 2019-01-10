@@ -1,0 +1,16 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone:  http://showjoy:showjoy123@localhost:2001/eureka/,http://showjoy:showjoy123@localhost:2002/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: service-hi
+
+
+
