@@ -8,6 +8,7 @@
     <packaging>jar</packaging>
 
     <name>feginclient</name>
+    <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.leo.learn.springcloud</groupId>
         <artifactId>spring-cloud-parent</artifactId>

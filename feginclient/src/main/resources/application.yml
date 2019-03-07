@@ -5,7 +5,7 @@ eureka:
     healthcheck:
       enabled: true
     serviceUrl:
-      defaultZone:  http://localhost:2001/eureka/,http://localhost:2002/eureka/
+      defaultZone:  http://localhost:2000/eureka/
 server:
   port: 8763
 spring:

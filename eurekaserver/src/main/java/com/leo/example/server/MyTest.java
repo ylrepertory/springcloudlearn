@@ -35,7 +35,6 @@ public class MyTest extends Thread
         for (int i=0;i<1;i++){
             executorService.submit(new MyThread(i));
       }
-      new String().concat()
 //       System.out.println(  (new BigDecimal("18.9").doubleValue()*100));
     }
 
